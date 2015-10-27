@@ -1,0 +1,11 @@
+# Gene Expression analysis from RNA-Seq database
+
+We will use RNA-Seq data to study the expression levels of genes in the head and testes of D. 
+melanogaster. Since RNA-Seq data are usually huge and thus, difficult to handle, we will use only a
+subset of data corresponds to the X chromosome.
+
+We will base on the experiment E-MTAB-493 which retrieves datas for Drosophila genome, from the arrayexpress website.
+
+We will use bowtie2 to map reads to the reference,  get the gene and transcript expression levels with cufflinks and
+ run cuffmerge to merge the results of cufflinks in a unified model. We will finally Run 
+ cuffdiff and get the differentially expressed genes
