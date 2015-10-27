@@ -1,0 +1,20 @@
+
+# Chronic high-level alcohol consumption effect on brain
+
+The chronic high-level alcohol consumption seen in alcoholism leads to dramatic effects on several 
+organs and tissues of the human body. 
+A more specific question is what is the effect of chronic alcohol consumption in the human brain. 
+Chronic high-level alcohol consumption leads to decreased white matter and inhibition of 
+neurogenesis. 
+
+Hippocampus is a very important region of the human brain (see http://en.wikipedia.org/wiki/Hippocampus for the role of
+hippocampus). To obtain insights into the effects of alcoholism in human brain, researchers analyzed gene 
+expression of post-morterm hippocampus from alcoholic men and women and control (non-
+alcoholic) men and women. 
+
+For our analysis, we based on "Chronic high-level alcohol consumption effect on brain: post-mortem hippocampus" dataset.
+We normalized it, made a boxplot and a heatmap of the samples. Making a PCA analysis by using the function prcomp, we output
+datas and colored results for both non-/alcoholic females and males. We constructed a t-test function that is able to find 
+the differentially expressed genes for males vs females and obtained a list of 100 genes that have the lowest p-value 
+regarding the separation of classes men vs women. At the end we answer the final query of differentially expressed genes for
+class alcoholic vs non-alcoholics
